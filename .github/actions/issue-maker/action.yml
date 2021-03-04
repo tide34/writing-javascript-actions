@@ -11,6 +11,10 @@ inputs:
     required: true
   repo-token:
     description: "Token with permissions to do repo things"
+  core:
+    description: "Core version"
+  github:
+    description: "kjlk"
 
 runs:
   using: "node12"
